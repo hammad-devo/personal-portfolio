@@ -1,0 +1,109 @@
+{
+  "skills": {
+    "frontend": [
+      {
+        "name": "React.js",
+        "level": 95,
+        "icon": "react"
+      },
+      {
+        "name": "Next.js",
+        "level": 90,
+        "icon": "nextjs"
+      },
+      {
+        "name": "Vue.js",
+        "level": 85,
+        "icon": "vue"
+      },
+      {
+        "name": "TypeScript",
+        "level": 88,
+        "icon": "typescript"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 92,
+        "icon": "tailwind"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js",
+        "level": 90,
+        "icon": "nodejs"
+      },
+      {
+        "name": "Express.js",
+        "level": 88,
+        "icon": "express"
+      },
+      {
+        "name": "NestJS",
+        "level": 85,
+        "icon": "nestjs"
+      },
+      {
+        "name": "Laravel",
+        "level": 80,
+        "icon": "laravel"
+      },
+      {
+        "name": "PHP",
+        "level": 82,
+        "icon": "php"
+      }
+    ],
+    "mobile": [
+      {
+        "name": "React Native",
+        "level": 85,
+        "icon": "react"
+      },
+      {
+        "name": "Expo",
+        "level": 80,
+        "icon": "expo"
+      }
+    ],
+    "devops": [
+      {
+        "name": "Azure DevOps",
+        "level": 85,
+        "icon": "azure"
+      },
+      {
+        "name": "Docker",
+        "level": 80,
+        "icon": "docker"
+      },
+      {
+        "name": "VPS Management",
+        "level": 88,
+        "icon": "server"
+      },
+      {
+        "name": "CI/CD",
+        "level": 85,
+        "icon": "cicd"
+      }
+    ],
+    "databases": [
+      {
+        "name": "PostgreSQL",
+        "level": 85,
+        "icon": "postgresql"
+      },
+      {
+        "name": "MongoDB",
+        "level": 80,
+        "icon": "mongodb"
+      },
+      {
+        "name": "MySQL",
+        "level": 82,
+        "icon": "mysql"
+      }
+    ]
+  }
+}

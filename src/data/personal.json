@@ -1,0 +1,43 @@
+{
+  "personal": {
+    "name": "Hammad Tahir",
+    "image": "me.jpg",
+    "title": "Full Stack Developer",
+    "email": "hammadwork11@gmail.com",
+    "phone": "+92 307 5214580",
+    "location": "Rawalpindi, Pakistan",
+    "github": "https://github.com/hammad-devo",
+    "linkedin": "www.linkedin.com/in/hammad-tahir-911aa4277",
+    "website": "https://hammad-devo.github.io",
+    "about": "I'm a passionate Full Stack Developer with expertise in modern web technologies. I specialize in building scalable applications using React, Next.js, Node.js, and various other technologies. With experience in both frontend and backend development, I enjoy creating seamless user experiences and robust server-side solutions.",
+    "summary": "Experienced Full Stack Developer with 5+ years of expertise in React, Next.js, Node.js, Laravel, and React Native. Passionate about creating innovative solutions and delivering high-quality applications.",
+    "experience": [
+      {
+        "title": "Senior Full Stack Developer",
+        "company": "TechInsects",
+        "period": "2023 - Present",
+        "description": "Led development of multiple web applications using React, Next.js, and Node.js. Implemented CI/CD pipelines and managed cloud infrastructure."
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "Remote Inc",
+        "period": "2022 - 2023",
+        "description": "Developed and maintained web applications using Laravel, Vue.js, and React Native. Collaborated with cross-functional teams to deliver features."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Fiverr",
+        "period": "2020-2022",
+        "description": "Built responsive websites and web applications using React and modern CSS frameworks. Optimized performance and user experience."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Computer Science",
+        "institution": "UET Taxila",
+        "period": "2018 - 2022",
+        "description": "Focused on software engineering and web development"
+      }
+    ]
+  }
+}

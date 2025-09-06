@@ -1,0 +1,50 @@
+{
+  "services": [
+    {
+      "id": "web-dev",
+      "title": "Web App Development",
+      "description": "Building performant, accessible, and scalable web apps with React and Next.js.",
+      "highlights": [
+        "Responsive, mobile-first UIs",
+        "SEO-friendly SSR/SSG",
+        "Component-driven architecture"
+      ],
+      "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+    },
+    {
+      "id": "mobile-dev",
+      "title": "Mobile App Development",
+      "description": "Cross-platform mobile apps with React Native and Expo, from MVP to production.",
+      "highlights": [
+        "App Store & Play Store delivery",
+        "Push notifications & deep links",
+        "Native integrations"
+      ],
+      "technologies": ["React Native", "Expo", "TypeScript"]
+    },
+    {
+      "id": "backend-apis",
+      "title": "Backend & APIs",
+      "description": "Robust REST/GraphQL APIs, authentication, and integrations with modern tooling.",
+      "highlights": [
+        "Authentication & RBAC",
+        "Payment & third‑party integrations",
+        "Observability & logging"
+      ],
+      "technologies": ["Node.js", "Express", "MongoDB", "PostgreSQL"]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps & Deployment",
+      "description": "CI/CD pipelines, containerization, and cloud deployments for reliable releases.",
+      "highlights": [
+        "Dockerized services",
+        "Automated CI/CD",
+        "VPS & cloud orchestration"
+      ],
+      "technologies": ["Docker", "GitHub Actions", "VPS", "NGINX"]
+    }
+  ]
+}
+
+
