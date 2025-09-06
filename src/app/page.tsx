@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 import {
   Github,
   Linkedin,
-  Twitter,
   Mail,
   Phone,
   MapPin,
@@ -161,7 +160,7 @@ function ProjectCard({
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const [hoverPreviewProject, setHoverPreviewProject] = useState<any | null>(
+  const [hoverPreviewProject, setHoverPreviewProject] = useState<object | null>(
     null
   );
 
@@ -603,11 +602,11 @@ export default function Home() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-semibold mb-6">{`Let's Connect`}</h3>
               <p className="text-muted-foreground mb-8">
-                I'm always interested in new opportunities and exciting
+                {`I'm always interested in new opportunities and exciting
                 projects. Feel free to reach out if you'd like to work together
-                or just want to say hello!
+                or just want to say hello!`}
               </p>
 
               <div className="space-y-4">
