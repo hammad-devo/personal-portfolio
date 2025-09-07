@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   /* config options here */
-  basePath: '/personal-portfolio',  
-  assetPrefix: '/personal-portfolio/',
+  // basePath: '/personal-portfolio',  
+  // assetPrefix: '/personal-portfolio/',
 };
 
 export default nextConfig;

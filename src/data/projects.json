@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id":"haglz",
+      "title": "Haglz",
+      "description":"A multi vendor e-commerce platform for selling products, featuring product management, order management, payment integration, and customer management along with crypto payments.",
+      "technologies": [
+        "Next JS",
+        "Tailwind CSS",
+        "TypeScript",
+        "Node JS",
+        "Mongo DB",
+        "Express JS",
+        "Stripe",
+        "Helio Api (Crypto Payments)",
+        "Hostinger VPS"
+      ],
+      "image": "haglz/main.png",
+     
+      "live": "https://haglz.com"
+    },
+    {
       "id": "haneover",
       "title": "HaneOver",
       "description": "A POS system for warehouse management, featuring customer and employee management, inventory tracking, invoicing, expense management, reporting, and automated alerts.",
@@ -12,8 +31,6 @@
         "Mongo DB",
         "Express JS"
       ],
-      "github": "#",
-      "live": "#",
       "image": "haneover/main.png",
       "slides":[
         "haneover/1.png",
@@ -42,8 +59,6 @@
         "Apple Store",
         "Twilio"
       ],
-      "github": "#",
-      "live": "https://apps.apple.com/tr/app/bunburry-express/id6467151156?platform=iphone",
       "image": "bunburry/main.png",
       "slides":[
         "bunburry/1.png",
@@ -71,8 +86,6 @@
         "Firebase Cloud Messaging (FCM)",
         "Twilio"
       ],
-      "github": "#",
-      "live": "#",
       "image": "transportation/main.png",
       "slides":[
         "transportation/1.jpeg",
@@ -106,7 +119,6 @@
         "Play Store",
         "Apple Store"
       ],
-      "github": "#",
       "live": "https://play.google.com/store/apps/details?id=app.apportunity&hl=en&gl=US",
       "image": "aaaa/main.png",
       "slides":[
@@ -131,8 +143,6 @@
         "MySQL",
         "Firebase"
       ],
-      "github": "#",
-      "live": "https://example.com",
       "image": "digikhata/main.png",
       "slides":[
         "digikhata/1.jpeg",
@@ -162,8 +172,6 @@
         "MongoDB",
         "Google Maps API"
       ],
-      "github": "#",
-      "live": "#",
       "image": "bunburry/admin/main.png",
       "slides":[
         "bunburry/admin/8.png",
@@ -186,8 +194,6 @@
         "Express",
         "MongoDB"
       ],
-      "github": "#",
-      "live": "#",
       "image": "yppo/main.png",
       "slides":[
         "yppo/1.png",
@@ -216,8 +222,6 @@
         "Nodemailer",
         "PDF.js"
       ],
-      "github": "#",
-      "live": "#",
       "image": "flatpage/main.png",
       "slides":[
         "flatpage/1.png",
@@ -242,8 +246,7 @@
         "Express",
         "MongoDB"
       ],
-      "github": "#",
-      "live": "#",
+ 
       "image": "crm/main.png",
       "slides":[
         "crm/1.png",
@@ -270,7 +273,6 @@
         "OKAPI",
         "Google Maps API"
       ],
-      "github": "#",
       "live": "https://www.hafiajema.com/",
       "image": "jema-hafia/main.png",
       "slides":[
@@ -295,8 +297,6 @@
         "Express",
         "MongoDB"
       ],
-      "github": "#",
-      "live": "#",
       "image": "tyres/main.png",
       "slides":[
         "tyres/1.png",

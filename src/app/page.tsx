@@ -118,7 +118,7 @@ function ProjectCard({
         <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
         <p className="text-muted-foreground mb-4">{project.description}</p>
         <div className="flex flex-wrap gap-2 mb-4">
-          {project.technologies.slice(0, 3).map((tech: string) => (
+          {project.technologies.map((tech: string) => (
             <span
               key={tech}
               className="px-2 py-1 bg-primary/10 text-primary text-xs rounded"
@@ -126,14 +126,14 @@ function ProjectCard({
               {tech}
             </span>
           ))}
-          {project.technologies.length > 3 && (
+          {/* {project.technologies.length > 3 && (
             <span className="px-2 py-1 bg-muted text-muted-foreground text-xs rounded">
               +{project.technologies.length - 3} more
             </span>
-          )}
+          )} */}
         </div>
         <div className="flex gap-3">
-          <a
+         {project.github && <a
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
@@ -141,16 +141,16 @@ function ProjectCard({
           >
             <Github size={16} />
             Code
-          </a>
-          <a
-            href={project.live}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <ExternalLink size={16} />
-            Live
-          </a>
+          </a>}
+          {project.live && <a
+                href={project.live}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <ExternalLink size={16} />
+                Live
+              </a>}
         </div>
       </div>
     </motion.div>
